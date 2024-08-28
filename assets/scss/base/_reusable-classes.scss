@@ -1,0 +1,62 @@
+// Section Padding
+.sec-p-top {
+    padding-top: 150px;
+}
+.sec-p-bot {
+    padding-bottom: 150px;
+}
+.sec-ph-top {
+    padding-top: 70px;
+}
+.sec-ph-bot {
+    padding-bottom: 70px;
+}
+.black-bg {
+    background: var(--color-1);
+}
+.heading-top-text {
+    color: var(--color-7);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    margin-bottom: 14px;
+}
+.flex-1 {
+    flex: 1;
+}
+.devider {
+    height: 1px;
+    width: 100%;
+    background: #90A3BF;
+}
+
+.wmelons{
+    .slick-slide {
+        margin: 0 10px;
+    }
+    .arrow-icons {
+        display: flex;
+        gap: 20px;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+    }
+    .slick-arrow {
+        color: #fff;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all .3s ease-in-out;
+        &.next-icon {
+            background: var(--color-7);
+        }
+        &:hover {
+            background: var(--color-7);
+        }
+    }
+}

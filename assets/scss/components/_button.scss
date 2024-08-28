@@ -1,0 +1,27 @@
+//Buttons
+.wmelons {
+    .cmn-btn {
+        padding: 16px 42px;
+        border-radius: 50px;
+        border: 1px solid transparent;
+        text-align: center;
+        transition: all .3s linear;
+    }
+    .fill-btn {
+        border-color: var(--color-3);
+        background: var(--color-3);
+        color: var(--color-4);
+        &:hover {
+            background: transparent;
+            color: var(--color-3);
+        }
+    }
+    .transparent-green-btn {
+        color: var(--color-3);
+        border-color: var(--color-3);
+        &:hover {
+            color: var(--color-4);
+            background: var(--color-3);
+        }
+    }
+}

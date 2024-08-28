@@ -1,0 +1,58 @@
+// Easy Steps how it works
+.wmelons.easy-steps {
+    .img-part {
+        img {
+            width: 100%;
+            border-radius: 12px;
+        }
+    }
+    .easy-steps-wraper {
+        max-width: 490px;
+        .second-head {
+            margin-bottom: 24px;
+            color: var(--color-4);
+        }
+        .pera {
+            color: var(--color-8);
+            margin-bottom: 32px;
+            font-size: 18px;
+        }
+        .easy-steps {
+            background-color: #1A202C;
+            border-radius: 12px;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            position: relative;
+            li{
+                display: flex;
+                align-items: center;
+                gap: 14px;
+                color: #fff;
+                font-size: 18px;
+                position: relative;
+                z-index: 4;
+                .number {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: var(--color-7);
+                    border-radius: 50%;
+                    height: 48px;
+                    width: 48px;
+                }
+                &:last-child .number {
+                    background: #fff;
+                    color: var(--color-1);
+                }
+            }
+            .line {
+                position: absolute;
+                left: 53px;
+                top: 50%;
+                transform: translateY(-46%);
+            }
+        }
+    }
+}

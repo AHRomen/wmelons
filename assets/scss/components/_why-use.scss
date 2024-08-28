@@ -1,0 +1,31 @@
+// Why Use
+.wmelons.why-use {
+    .head-with-text {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        max-width: 900px;
+        justify-content: space-between;
+        .pera {
+            max-width: 496px;
+        }
+    }
+    .single-why-use-card {
+        .img img{
+            width: 100%;
+            border-radius: 12px;
+        }
+        .text {
+            margin-top: 24px;
+            .card-head {
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 1.2;
+                margin-bottom: 12px;
+            }
+            .text {
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+//Wlemons
+.wmelons {
+    .main-heading {
+        font-size: 60px;
+        line-height: 1.2;
+    }
+    .second-head{
+        font-size: 40px;
+        line-height: 1.2;
+    }
+    .second-head:has(+ p) {
+        margin-bottom: 14px;
+    }
+    .second-head:has(+ p) {
+        margin-bottom: 14px;
+    }
+}

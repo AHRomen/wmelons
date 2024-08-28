@@ -1,0 +1,20 @@
+@mixin flex-ac-jc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex-ac-js{
+    @include flex-ac-jc;
+    justify-content: space-between;
+}
+@mixin trans-btn($color){
+    background: transparent;
+    border: 1px solid $color;
+    color: $color;
+}
+@mixin transition{
+    transition:all ease-in-out .5s;
+} 
+@mixin trans-border($width, $border-color){
+    border: $width solid $border-color;
+}

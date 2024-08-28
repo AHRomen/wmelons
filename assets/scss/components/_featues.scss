@@ -1,0 +1,41 @@
+//Our Features 
+.wmelons {
+    .single-features {
+        border: 1px solid var(--color-6);
+        border-radius: 28px;
+        padding: 30px;
+        transition: all .3s ease-in-out;
+        .text {
+            margin: 26px 0;
+            .feature-head {
+                font-weight: 600;
+                font-size: 22px;
+                margin-bottom: 20px;
+            }
+        }
+        .btn-wraper {
+            position: relative;
+            font-weight: 500;
+            color: var(--color-1);
+            font-size: 18px;
+            transition: all .3s ease-in-out;
+            span {
+                position: absolute;
+                left: 70px;
+                transition: all .3s ease-in-out; 
+            }
+        }
+        &:hover {
+            background: var(--color-5);
+            border-color: transparent;
+            .btn-wraper {
+                font-weight: 500;
+                color: var(--color-7);
+                span {
+                    position: absolute;
+                    left: 90%;
+                }
+            }
+        }
+    }
+}
