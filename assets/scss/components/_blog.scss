@@ -1,0 +1,30 @@
+.wmelons.recent-blog {
+    .single-blog {
+        .blog-head {
+            img{
+                border-radius:28px 28px 0 0;
+                width: 100%;
+            }
+        }
+        .bolg-body {
+            border-radius: 0 0 28px 28px;
+            padding: 24px;
+            border: 1px solid var(--color-6);
+            .date {
+                color: var(--color-3);
+                font-size: 14px;
+                font-weight: 500;
+            }
+            .blog-title {
+                font-weight: 500;
+                font-size: 20px;
+                margin: 16px 0 34px 0;
+            }
+            .blog-foot .blog-btn{
+                color: var(--color-1);
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+    }
+}

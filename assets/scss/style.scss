@@ -17,8 +17,13 @@
 @import "./components/why-use";
 @import "./components/price-plan";
 @import "./components/customer-feedback";
+@import "./components/blog";
+@import "./components/faq";
+@import "./components/get-updates";
 
 //Pages
-
+@import "./pages/about";
+@import "./pages/blog-details";
+@import "./pages/login";
 // Layout Navigation
-// @import "./layout/footer";
+@import "./layout/footer";

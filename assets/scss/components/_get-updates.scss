@@ -1,0 +1,46 @@
+// Get updates
+.wmelons.get-updates {
+    .get-update-wraper {
+        background-size: cover;
+        background-position: right center;
+        background-repeat: no-repeat;
+        border-radius: 32px;
+        padding: 100px;
+        .get-update-inner {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .get-update-title {
+                max-width: 274px;
+                font-weight: 600;
+                font-size: 38px;
+                line-height: 1.3;
+                color: var(--color-4);
+                text-transform: capitalize;
+            }
+            .text-part {
+                max-width: 510px;
+                color: var(--color-4);
+                .news-latter {
+                    display: flex;
+                    gap: 12px;
+                    flex-wrap: wrap;
+                    margin-top: 16px;
+                    input {
+                        border: none;
+                        border-radius: 32px;
+                        padding: 20px 27px;
+                        color: #AAAAAA;
+                        flex: 1;
+                    }
+                    .subscribe-btn {
+                        color: var(--color-4);
+                        background: #D72D40;
+                        padding: 20px 27px;
+                    }
+                }
+            }
+        }
+    }
+}

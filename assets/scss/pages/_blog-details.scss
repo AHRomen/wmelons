@@ -1,0 +1,90 @@
+.wmelons.blog-details {
+    .blog-details-head-wraper {
+        max-width: 870px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .blog-details-wraper {
+        .blog-head-img {
+            position: relative;
+            margin-bottom: 58px;
+            .writer-date {
+                position: absolute;
+                display: flex;
+                gap: 30px;
+                padding:20px 30px;
+                background-color: #fff;
+                border-radius: 16px;
+                bottom: -8px;
+                left: 40px;
+                color: var(--color-1);
+                font-weight: 500;
+                .svg {
+                    margin-right: 8px;
+                }
+            }
+        }
+        .blog-details-body {
+            p:has(+p){
+                margin-bottom: 80px;
+            }
+            p:has(+ .blog-inner-image-wraper){
+                margin-bottom: 50px;
+            }
+            .blog-inner-image-wraper {
+                margin-bottom: 50px;
+                img {
+                    width: 100%;
+                    border-radius: 28px;
+                }
+            }
+            .blog-details-sub-heading {
+                font-size: 24px;
+                font-weight: 700;
+                letter-spacing: -1px;
+                &:has(+ p) {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .share-tag {
+            margin-top: 96px;
+            display: flex;
+            gap: clamp(30px,200px,201px);
+            .title {
+                font-size: 24px;
+                letter-spacing: -1px;
+                margin-bottom: 27px;
+            }
+            .share a{
+                height: 56px;
+                width: 56px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                border: 1px solid #E0E0E0;
+                background: #fff;
+                color: var(--color-7);
+                transition: all .3s ease-in-out;
+                &:hover {
+                    border-color: var(--color-7);
+                    background: var(--color-7);
+                    color: var(--color-4);
+                }
+            }
+            .tags a{
+                font-weight: 500;
+                padding: 14px 42px;
+                color: var(--color-2);
+                background: #F6F6F6;
+                border-radius: 37px;
+                transition: all .3s ease-in-out;
+                &:hover {
+                    background: var(--color-2);
+                    color: var(--color-4);
+                }
+            }
+        }
+    }
+}

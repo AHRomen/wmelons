@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wmelons</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <!--Plugin file-->
+    <link rel="stylesheet" href="./assets/css/plugin.css">
+    <!-- Style Css File -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <header class="wmelons sticky-header">
+        <nav class="navbar wmelons-navbar navbar-expand-lg">
+            <div class="container custom-container gap-3">      
+                <div class="logo-wraper">
+                    <a href="javascript:void(0)" class="logo">
+                        <img src="./assets/images/logo.png" alt="Wmelons">
+                    </a>
+                </div>
+                <div class="responsive-mobile-menu ms-auto d-lg-none">
+                    <button class="navbar-toggler bg-w" type="button" data-bs-toggle="collapse" data-bs-target="#listing-menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a href="javascript:void(0)" class="click-nav-right-icon">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="listing-menu">
+                    <ul class="navbar-nav ms-lg-auto mt-lg-0 text-center mt-5">
+                        <li class="current-menu-item menu-item-has-children">
+                            <a href="./index.html">Home</a>
+                            <ul class="sub-menu">
+                                <li class="">
+                                    <a href="javascript:void(0)">Home1</a>
+                                </li>
+                                <li class="">
+                                    <a href="javascript:void(0)">Home2</a>
+                                </li>
+                            </ul>
+                        </li>             
+                        <li class="">
+                            <a href="./about.html">About</a>
+                        </li>
+                        <li class="">
+                            <a href="./theme.thml">Themes</a>
+                        </li>
+                        <li class="">
+                            <a href="./pricing-plan.html">Pricing Plan</a>
+                        </li>
+                        <li class="">
+                            <a href="./blog.html">Blog</a>
+                        </li>
+                        <li class="">
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar-right-content">
+                    <div class="single-right-content">
+                        <div class="navbar-right-flex d-flex gap-3">
+                            <div class="navbar-right-btn-1">
+                                <a href="./login.html" class="cmn-btn transparent-green-btn">Login</a>
+                            </div>
+                            <div class="navbar-right-btn-2">
+                                <a href="./register.html" class="cmn-btn fill-btn"><span class="me-2"><i class="fa-solid fa-plus"></i></span>Registar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="after-login-content">
+                        <div class="notification">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.0199 20.53C9.68987 20.53 7.35987 20.16 5.14987 19.42C4.30987 19.13 3.66987 18.54 3.38987 17.77C3.09987 17 3.19987 16.15 3.65987 15.39L4.80987 13.48C5.04987 13.08 5.26987 12.28 5.26987 11.81V8.92C5.26987 5.2 8.29987 2.17 12.0199 2.17C15.7399 2.17 18.7699 5.2 18.7699 8.92V11.81C18.7699 12.27 18.9899 13.08 19.2299 13.49L20.3699 15.39C20.7999 16.11 20.8799 16.98 20.5899 17.77C20.2999 18.56 19.6699 19.16 18.8799 19.42C16.6799 20.16 14.3499 20.53 12.0199 20.53ZM12.0199 3.67C9.12987 3.67 6.76987 6.02 6.76987 8.92V11.81C6.76987 12.54 6.46987 13.62 6.09987 14.25L4.94987 16.16C4.72987 16.53 4.66987 16.92 4.79987 17.25C4.91987 17.59 5.21987 17.85 5.62987 17.99C9.80987 19.39 14.2399 19.39 18.4199 17.99C18.7799 17.87 19.0599 17.6 19.1899 17.24C19.3199 16.88 19.2899 16.49 19.0899 16.16L17.9399 14.25C17.5599 13.6 17.2699 12.53 17.2699 11.8V8.92C17.2699 6.02 14.9199 3.67 12.0199 3.67Z" fill="#344054"/>
+                                <path d="M13.8796 3.93999C13.8096 3.93999 13.7396 3.92999 13.6696 3.90999C13.3796 3.82999 13.0996 3.76999 12.8296 3.72999C11.9796 3.61999 11.1596 3.67999 10.3896 3.90999C10.1096 3.99999 9.80963 3.90999 9.61963 3.69999C9.42963 3.48999 9.36963 3.18999 9.47963 2.91999C9.88963 1.86999 10.8896 1.17999 12.0296 1.17999C13.1696 1.17999 14.1696 1.85999 14.5796 2.91999C14.6796 3.18999 14.6296 3.48999 14.4396 3.69999C14.2896 3.85999 14.0796 3.93999 13.8796 3.93999Z" fill="#344054"/>
+                                <path d="M12.0195 22.81C11.0295 22.81 10.0695 22.41 9.36953 21.71C8.66953 21.01 8.26953 20.05 8.26953 19.06H9.76953C9.76953 19.65 10.0095 20.23 10.4295 20.65C10.8495 21.07 11.4295 21.31 12.0195 21.31C13.2595 21.31 14.2695 20.3 14.2695 19.06H15.7695C15.7695 21.13 14.0895 22.81 12.0195 22.81Z" fill="#344054"/>
+                            </svg>
+                        </div>
+                        <div class="fevourite">
+                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 19.65C10.69 19.65 10.39 19.61 10.14 19.52C6.32 18.21 0.25 13.56 0.25 6.69001C0.25 3.19001 3.08 0.350006 6.56 0.350006C8.25 0.350006 9.83 1.01001 11 2.19001C12.17 1.01001 13.75 0.350006 15.44 0.350006C18.92 0.350006 21.75 3.20001 21.75 6.69001C21.75 13.57 15.68 18.21 11.86 19.52C11.61 19.61 11.31 19.65 11 19.65ZM6.56 1.85001C3.91 1.85001 1.75 4.02001 1.75 6.69001C1.75 13.52 8.32 17.32 10.63 18.11C10.81 18.17 11.2 18.17 11.38 18.11C13.68 17.32 20.26 13.53 20.26 6.69001C20.26 4.02001 18.1 1.85001 15.45 1.85001C13.93 1.85001 12.52 2.56001 11.61 3.79001C11.33 4.17001 10.69 4.17001 10.41 3.79001C9.48 2.55001 8.08 1.85001 6.56 1.85001Z" fill="#344054"/>
+                            </svg>                                
+                        </div>
+                        <div class="profile-part">
+                            <div class="profile-img">
+                                <img src="./assets/images/profile.png" alt="">
+                            </div>
+                            <div class="profile-item">
+                                <div class="item"><a href="dashbord.html">Dashbord</a></div>
+                                <div class="item"><a href="#/">Setting</a></div>
+                                <div class="logout"><a href="#/">Log Out</a></div>
+                            </div>
+                        </div>
+                        <div class="country-flag">
+                            <img src="./assets/images/flag.png" alt="">
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End of Header -->
+       <!-- Blog  Details-->
+       <div class="wmelons blog-details sec-p-top sec-p-bot">
+            <div class="container">
+                <div class="blog-details-head-wraper">
+                    <h2 class="second-head text-center">Blog Title We’r providing quality service since 2010!</h2>
+                    <p class="pera text-center">Appropriately foster efficient ideas after go forward alignments. Monotonectally.</p>
+                </div>
+                <div class="blog-details-wraper mt-5">
+                    <div class="blog-head-img">
+                        <img src="./assets/images/blog-details-head.png" alt="blog" class="img-fluid w-100">
+                        <div class="writer-date">
+                            <div class="writer">
+                                <span class="svg">
+                                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10.9925 18.1281L11.4052 18.7059L10.9925 18.1281ZM11.0469 18.0894L10.6379 17.509L11.0469 18.0894ZM13.9677 17.1534L13.9723 17.8634L13.9677 17.1534ZM6.60997 18.7021L7.26919 18.9658L6.60997 18.7021ZM8.31503 20.0406L7.90235 19.4628L8.31503 20.0406ZM19.5304 12.268L18.8212 12.2344L19.5304 12.268ZM14.6509 17.1475L14.6173 16.4383L14.6509 17.1475ZM3.87599 1.30328L4.19832 1.93589L3.87599 1.30328ZM1.63507 3.5442L2.26768 3.86653L1.63507 3.5442ZM16.7364 1.30328L16.414 1.93589L16.7364 1.30328ZM18.9773 3.5442L18.3447 3.86653L18.9773 3.5442ZM6.20395 10.8027C5.81183 10.8027 5.49395 11.1206 5.49395 11.5127C5.49395 11.9048 5.81183 12.2227 6.20395 12.2227V10.8027ZM14.4084 12.2227C14.8005 12.2227 15.1184 11.9048 15.1184 11.5127C15.1184 11.1206 14.8005 10.8027 14.4084 10.8027V12.2227ZM6.20395 6.18772C5.81183 6.18772 5.49395 6.5056 5.49395 6.89772C5.49395 7.28984 5.81183 7.60772 6.20395 7.60772V6.18772ZM14.4084 7.60772C14.8005 7.60772 15.1184 7.28984 15.1184 6.89772C15.1184 6.5056 14.8005 6.18772 14.4084 6.18772V7.60772ZM11.3317 0.0343848H9.28061V1.45438H11.3317V0.0343848ZM0.366172 8.94883V13.2852H1.78617V8.94883H0.366172ZM20.2462 11.7166V8.94883H18.8262V11.7166H20.2462ZM4.94421 17.8633H5.56135V16.4433H4.94421V17.8633ZM8.72771 20.6183L11.4052 18.7059L10.5798 17.5504L7.90235 19.4628L8.72771 20.6183ZM11.4052 18.7059C11.4332 18.6859 11.4447 18.6776 11.4558 18.6698L10.6379 17.509C10.6222 17.5201 10.6064 17.5314 10.5798 17.5504L11.4052 18.7059ZM14.0498 16.4433C14.0073 16.4433 13.9825 16.4433 13.9632 16.4434L13.9723 17.8634C13.9858 17.8633 14.0048 17.8633 14.0498 17.8633V16.4433ZM11.4558 18.6698C12.1927 18.1505 13.0708 17.8691 13.9723 17.8634L13.9632 16.4434C12.772 16.451 11.6116 16.8229 10.6379 17.509L11.4558 18.6698ZM5.56135 17.8633C5.85806 17.8633 6.06094 18.1629 5.95075 18.4384L7.26919 18.9658C7.75248 17.7576 6.86266 16.4433 5.56135 16.4433V17.8633ZM5.95075 18.4384C5.26849 20.1441 7.23284 21.6861 8.72771 20.6183L7.90235 19.4628C7.56151 19.7063 7.11362 19.3547 7.26919 18.9658L5.95075 18.4384ZM18.8262 11.7166C18.8262 12.0115 18.826 12.1342 18.8212 12.2344L20.2396 12.3016C20.2464 12.1594 20.2462 11.9953 20.2462 11.7166H18.8262ZM14.0498 17.8633C14.3605 17.8633 14.542 17.8635 14.6845 17.8567L14.6173 16.4383C14.5174 16.4431 14.379 16.4433 14.0498 16.4433V17.8633ZM18.8212 12.2344C18.7135 14.5101 16.893 16.3306 14.6173 16.4383L14.6845 17.8567C17.6916 17.7144 20.0973 15.3087 20.2396 12.3016L18.8212 12.2344ZM0.366172 13.2852C0.366172 15.8136 2.41583 17.8633 4.94421 17.8633V16.4433C3.20008 16.4433 1.78617 15.0294 1.78617 13.2852H0.366172ZM9.28061 0.0343848C7.85642 0.0343848 6.74557 0.0338326 5.85489 0.106605C4.95591 0.180054 4.21887 0.331719 3.55365 0.670664L4.19832 1.93589C4.62999 1.71594 5.15936 1.58816 5.97052 1.52189C6.78997 1.45494 7.83299 1.45438 9.28061 1.45438V0.0343848ZM1.78617 8.94883C1.78617 7.5012 1.78672 6.45818 1.85368 5.63873C1.91995 4.82757 2.04773 4.29821 2.26768 3.86653L1.00245 3.22187C0.663506 3.88708 0.511841 4.62412 0.438392 5.5231C0.36562 6.41378 0.366172 7.52463 0.366172 8.94883H1.78617ZM3.55365 0.670664C2.45521 1.23035 1.56214 2.12342 1.00245 3.22187L2.26768 3.86653C2.69123 3.03527 3.36706 2.35944 4.19832 1.93589L3.55365 0.670664ZM11.3317 1.45438C12.7794 1.45438 13.8224 1.45494 14.6418 1.52189C15.453 1.58816 15.9823 1.71594 16.414 1.93589L17.0587 0.670664C16.3935 0.331719 15.6564 0.180054 14.7575 0.106605C13.8668 0.0338326 12.7559 0.0343848 11.3317 0.0343848V1.45438ZM20.2462 8.94883C20.2462 7.52463 20.2467 6.41378 20.174 5.5231C20.1005 4.62412 19.9488 3.88708 19.6099 3.22187L18.3447 3.86653C18.5646 4.29821 18.6924 4.82757 18.7587 5.63873C18.8256 6.45818 18.8262 7.5012 18.8262 8.94883H20.2462ZM16.414 1.93589C17.2453 2.35944 17.9211 3.03527 18.3447 3.86653L19.6099 3.22187C19.0502 2.12342 18.1571 1.23035 17.0587 0.670664L16.414 1.93589ZM6.20395 12.2227H14.4084V10.8027H6.20395V12.2227ZM6.20395 7.60772H14.4084V6.18772H6.20395V7.60772Z" fill="#EE4356"/>
+                                    </svg>
+                                </span>
+                                <span class="text">Writing Wmelons</span>
+                            </div>
+                            <div class="date">
+                                <span class="svg">
+                                    <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.56492 20.2762L3.98224 19.7018L3.56492 20.2762ZM2.43049 19.1418L3.00489 18.7244L2.43049 19.1418ZM18.9319 19.1418L18.3575 18.7244L18.9319 19.1418ZM17.7974 20.2762L18.2148 20.8506L17.7974 20.2762ZM17.7974 3.77481L18.2148 3.20041L17.7974 3.77481ZM18.9319 4.90924L18.3575 5.32657L18.9319 4.90924ZM3.56492 3.77481L3.98224 4.34922L3.56492 3.77481ZM2.43049 4.90924L3.00489 5.32657H3.00489L2.43049 4.90924ZM18.0835 15.1653L17.9724 14.464L18.0835 15.1653ZM13.821 19.4278L13.1197 19.3167L13.821 19.4278ZM7.6045 12.3411C7.21238 12.3411 6.89451 12.6589 6.89451 13.0511C6.89451 13.4432 7.21238 13.7611 7.6045 13.7611V12.3411ZM13.7578 13.7611C14.15 13.7611 14.4678 13.4432 14.4678 13.0511C14.4678 12.6589 14.15 12.3411 13.7578 12.3411V13.7611ZM13.0478 3.82105C13.0478 4.21317 13.3657 4.53105 13.7578 4.53105C14.15 4.53105 14.4678 4.21317 14.4678 3.82105H13.0478ZM14.4678 0.744385C14.4678 0.352263 14.15 0.0343848 13.7578 0.0343848C13.3657 0.0343848 13.0478 0.352263 13.0478 0.744385H14.4678ZM6.89451 3.82105C6.89451 4.21317 7.21238 4.53105 7.6045 4.53105C7.99663 4.53105 8.3145 4.21317 8.3145 3.82105H6.89451ZM8.3145 0.744385C8.3145 0.352263 7.99663 0.0343848 7.6045 0.0343848C7.21238 0.0343848 6.89451 0.352263 6.89451 0.744385H8.3145ZM19.8815 15.1022L20.5911 15.1265L19.8815 15.1022ZM1.48084 8.94883L0.771256 8.92452L1.48084 8.94883ZM19.8815 8.94883L20.5911 8.92452L19.8815 8.94883ZM10.6812 20.5455C8.74258 20.5455 7.34566 20.5445 6.2629 20.4272C5.19343 20.3113 4.515 20.0888 3.98224 19.7018L3.14759 20.8506C3.96275 21.4428 4.91966 21.71 6.10995 21.8389C7.28695 21.9665 8.77421 21.9655 10.6812 21.9655V20.5455ZM0.741172 12.0255C0.741172 13.9325 0.740197 15.4197 0.867717 16.5967C0.996677 17.787 1.26384 18.7439 1.85609 19.5591L3.00489 18.7244C2.61782 18.1917 2.39533 17.5132 2.27946 16.4438C2.16215 15.361 2.16117 13.9641 2.16117 12.0255H0.741172ZM3.98224 19.7018C3.6072 19.4293 3.27738 19.0995 3.00489 18.7244L1.85609 19.5591C2.21616 20.0547 2.65199 20.4905 3.14759 20.8506L3.98224 19.7018ZM18.3575 18.7244C18.085 19.0995 17.7551 19.4293 17.3801 19.7018L18.2148 20.8506C18.7103 20.4905 19.1462 20.0547 19.5063 19.5591L18.3575 18.7244ZM17.3801 4.34922C17.7551 4.6217 18.085 4.95152 18.3575 5.32657L19.5063 4.49191C19.1462 3.99632 18.7103 3.56048 18.2148 3.20041L17.3801 4.34922ZM3.14759 3.20041C2.65199 3.56048 2.21616 3.99632 1.85609 4.49191L3.00489 5.32657C3.27738 4.95152 3.6072 4.6217 3.98224 4.34922L3.14759 3.20041ZM17.9724 14.464C15.4744 14.8597 13.5153 16.8188 13.1197 19.3167L14.5222 19.5388C14.8216 17.6485 16.3042 16.166 18.1945 15.8666L17.9724 14.464ZM7.6045 13.7611H13.7578V12.3411H7.6045V13.7611ZM19.8815 14.3922C18.9745 14.3922 18.4357 14.3907 17.9724 14.464L18.1945 15.8666C18.5201 15.815 18.9225 15.8122 19.8815 15.8122L19.8815 14.3922ZM19.2012 12.0255C19.2012 13.2282 19.2011 14.2267 19.1719 15.0779L20.5911 15.1265C20.6213 14.2458 20.6212 13.2204 20.6212 12.0255H19.2012ZM19.1719 15.0779C19.1067 16.9809 18.8946 17.9851 18.3575 18.7244L19.5063 19.5591C20.3172 18.4429 20.5253 17.0471 20.5911 15.1265L19.1719 15.0779ZM14.4678 21.2258C14.4678 20.2668 14.4707 19.8644 14.5222 19.5388L13.1197 19.3167C13.0463 19.78 13.0478 20.3188 13.0478 21.2258L14.4678 21.2258ZM10.6812 21.9655C11.876 21.9655 12.9015 21.9656 13.7821 21.9354L13.7335 20.5162C12.8823 20.5454 11.8839 20.5455 10.6812 20.5455V21.9655ZM13.7821 21.9354C15.7027 21.8696 17.0986 21.6615 18.2148 20.8506L17.3801 19.7018C16.6408 20.2389 15.6366 20.451 13.7335 20.5162L13.7821 21.9354ZM2.16117 12.0255C2.16117 10.8228 2.16126 9.82432 2.19042 8.97314L0.771256 8.92452C0.741083 9.80519 0.741172 10.8306 0.741172 12.0255H2.16117ZM2.19042 8.97314C2.25562 7.07008 2.46777 6.06585 3.00489 5.32657L1.85609 4.49191C1.04515 5.60808 0.837058 7.00393 0.771256 8.92452L2.19042 8.97314ZM1.48084 9.65883H19.8815V8.23883H1.48084V9.65883ZM20.6212 12.0255C20.6212 10.8306 20.6213 9.80519 20.5911 8.92452L19.1719 8.97314C19.2011 9.82432 19.2012 10.8228 19.2012 12.0255H20.6212ZM20.5911 8.92452C20.5253 7.00393 20.3172 5.60808 19.5063 4.49191L18.3575 5.32657C18.8946 6.06585 19.1067 7.07008 19.1719 8.97314L20.5911 8.92452ZM14.4678 3.82105V2.82516H13.0478V3.82105H14.4678ZM14.4678 2.82516V0.744385H13.0478V2.82516H14.4678ZM10.6812 3.5055C11.8839 3.5055 12.8824 3.50558 13.7335 3.53475L13.7821 2.11558C12.9015 2.08541 11.876 2.0855 10.6812 2.0855V3.5055ZM13.7335 3.53475C15.6366 3.59995 16.6408 3.8121 17.3801 4.34922L18.2148 3.20041C17.0986 2.38947 15.7027 2.18138 13.7821 2.11558L13.7335 3.53475ZM8.3145 3.82105V2.82516H6.89451V3.82105H8.3145ZM8.3145 2.82516V0.744385H6.89451V2.82516H8.3145ZM10.6812 2.0855C9.4863 2.0855 8.46087 2.08541 7.58019 2.11558L7.62882 3.53475C8.47999 3.50558 9.47844 3.5055 10.6812 3.5055V2.0855ZM7.58019 2.11558C5.6596 2.18138 4.26375 2.38947 3.14759 3.20041L3.98224 4.34922C4.72153 3.8121 5.72576 3.59995 7.62882 3.53475L7.58019 2.11558Z" fill="#EE4356"/>
+                                     </svg>                                        
+                                </span>
+                                <span class="text">2 months age</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-details-body">
+                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
+                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        <p>The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.</p>
+                        <p>The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.</p>
+                        <div class="blog-inner-image-wraper">
+                            <img src="./assets/images/blog-inner-image.png" alt="" class="bolg-inner">
+                        </div>
+                        <h4 class="blog-details-sub-heading">Blog Title We’r providing quality service since 2010!</h4>
+                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
+                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
+                        <p>The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content</p>  
+                        <p>The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum</p> 
+                    </div>
+                    <div class="share-tag">
+                        <div class="share">
+                            <h5 class="title">Share:</h5>
+                            <div class="links d-flex gap-4">
+                                <a href="javascript:void(0)"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="javascript:void(0)"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="javascript:void(0)"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="tags">
+                            <h5 class="title">Tags:</h5>
+                            <div class="tags-wraper d-flex gap-3">
+                                <a href="javascript:void(0)">Blog</a>
+                                <a href="javascript:void(0)">Blog</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+       <!-- Get Update -->
+       <div class="wmelons get-updates">
+            <div class="container">
+                <div class="get-update-wraper" style="background-image: url('./assets/images/get-update.png');">
+                    <div class="get-update-inner">
+                        <h2 class="get-update-title">Get Updates as soon as they happen.</h2>
+                        <div class="text-part">
+                            <p class="text">Ready to transform your digital dresence? Let's create magic together! book our services now!</p>
+                            <form action="#" method="get" class="news-latter">
+                                <input type="email" name="" id="email" placeholder="Enter Your Email">
+                                <button type="button" class="cmn-btn subscribe-btn">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+       <!--Footer Part-->
+       <footer class="footer-area wmelons">
+            <div class="container">
+                <div class="footer-area-wraper">
+                    <div class="footer-area-top sec-p-top sec-p-bot">
+                        <div class="footer-area-logo-widget">
+                            <div class="footer-widget widget">
+                            <div class="footer-content-logo">
+                                    <a href="javascript:void(0)"><img src="./assets/images/footer-logo.png" alt="wmelons"></a>
+                            </div> 
+                            <div class="footer-widget-inner mt-5">
+                                    <ul class="mt-3">
+                                        <li class="mb-3">hello@matjar.online</li>
+                                        <li>+971 000 000 000</li>
+                                    </ul>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="footer-area-menu-widget">
+                            <div class="row g-4">
+                                <div class="col-xl-3">
+                                    <div class="about-us link-list footer-widget widget">
+                                        <h4 class="footer-widget-title">About Us</h4>
+                                        <ul>
+                                            <li><a href="javascript:void(0)">Work Portfolio</a></li>
+                                            <li><a href="javascript:void(0)">About us</a></li>
+                                            <li><a href="javascript:void(0)">Team</a></li>
+                                            <li><a href="javascript:void(0)">Pricing</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3">
+                                    <div class="about-us link-list footer-widget widget">
+                                        <h4 class="footer-widget-title">About Us</h4>
+                                        <ul>
+                                            <li><a href="javascript:void(0)">Work Portfolio</a></li>
+                                            <li><a href="javascript:void(0)">About us</a></li>
+                                            <li><a href="javascript:void(0)">Team</a></li>
+                                            <li><a href="javascript:void(0)">Pricing</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3">
+                                    <div class="about-us link-list footer-widget widget">
+                                        <h4 class="footer-widget-title">About Us</h4>
+                                        <ul>
+                                            <li><a href="javascript:void(0)">Work Portfolio</a></li>
+                                            <li><a href="javascript:void(0)">About us</a></li>
+                                            <li><a href="javascript:void(0)">Team</a></li>
+                                            <li><a href="javascript:void(0)">Pricing</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3">
+                                    <div class="about-us link-list footer-widget widget">
+                                        <h4 class="footer-widget-title">About Us</h4>
+                                        <ul>
+                                            <li><a href="javascript:void(0)">Work Portfolio</a></li>
+                                            <li><a href="javascript:void(0)">About us</a></li>
+                                            <li><a href="javascript:void(0)">Team</a></li>
+                                            <li><a href="javascript:void(0)">Pricing</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-area-bottom">
+                <div class="container">
+                    <div class="footer-area-bottom-wraper">
+                        <ul>
+                            <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                            <li><a href="javascript:void(0)">Terms & Condition</a></li>
+                            <li><a href="javascript:void(0)">Cookie Policy</a></li>
+                        </ul>
+                        <div class="allright">&copy;2024 All right reserved By <a href="javascript:void(0)">WMelons</a></div>
+                    </div>
+                </div>
+            </div>
+       </footer>
+    <!-- Plugin JS -->
+    <script src="./assets/js/plugin.js"></script>
+     <!--Main JS-->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

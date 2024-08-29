@@ -1,0 +1,119 @@
+.wmelons.login-reg {
+    padding: 74px 0;
+    .login-reg-wraper {
+        max-width: 458px;
+        margin: auto;
+    }
+    .img {
+        max-width: 800px;
+        max-height: 968px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .account-title {
+        font-size: 30px;
+        color: #141414;
+        &:has( + p){
+            margin-bottom: 10px;
+        }
+    }
+    p {
+        color: #141414;
+        margin-bottom: 30px;
+    }
+
+} 
+.wmelons.login-reg {
+    color:#141414;
+    font-weight: 500;
+    .custom-label {
+        color: #141414;
+        font-weight: 600;
+        &:has(+ .custom-input){
+            margin-bottom: 10px;
+        }
+    }
+    .custom-input {
+        padding: 16px 22px;
+        color: #141414;
+        border: none;
+        border-radius: 18px;
+        background: #F2F2F266;
+        &::placeholder {
+            color: #141414;
+        }
+    }
+    .custom-checkbox {
+        -webkit-appearance: none;
+        height: 20px;
+        width: 20px;
+        border: 1.5px solid #D0D0D0;
+        border-radius: 4px;
+        vertical-align: text-top;
+        position: relative;
+        transition: all .3s ease-in-out;
+        &::after{
+            content: "\f00c";
+            font: var(--fa-font-regular);
+            font-weight: 900;
+            position: absolute;
+            inset: 0;
+            font-size: 14px;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &:checked::after{
+            background: var(--color-3);
+        }
+    }
+    .svae-forget {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+
+    }
+    .login-btn-wraper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .login-signup-btn {
+            text-align: center;
+            padding: 20px;
+            border-radius: 18px;
+            color: #fff;
+            transition: all .3s ease-in-out;
+            .icon{
+                display: inline-block;
+                margin-left: 8px;
+            }
+            &.black-btn{
+                background: #141414;
+            }
+            &.white-btn {
+                background: #F2F2F280;
+                color: #141414;
+            }
+            &.blue1-btn {
+                background: #365899;
+            }
+            &.blue2-btn {
+                background: #006699;
+            }
+            &:hover {
+                opacity: .8;
+            }
+        }
+    }
+    .dont-have-acc {
+        text-align: center;
+        font-weight: 400;
+        a {
+            font-weight: 500;
+        }
+    }
+}
+

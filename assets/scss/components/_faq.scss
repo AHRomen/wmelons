@@ -1,0 +1,39 @@
+// Frequently Asked Question
+.wmelons.faq {
+    .single-faq-item {
+        .faq-header-wraper {
+            padding:32px 0 32px 10px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--color-6);
+            cursor: pointer;
+            h2 {
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 1.2;
+              color: #000000;  
+            }
+            .icon {
+                height: 20px;
+                width: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 14px;
+                color: var(--color-4);
+                background: var(--color-3);
+                border-radius: 50%;
+            }
+            
+        }
+        .faq-body-wraper {
+            padding: 20px 10px;
+            // border: 1px solid var(--color-6);
+            // border-top: none;
+            // border-radius: 0 0 12px 12px;
+        }
+        &:first-child {
+            border-top: 1px solid var(--color-6);
+        }
+    }
+}
