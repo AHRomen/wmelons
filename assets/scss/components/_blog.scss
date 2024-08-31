@@ -24,6 +24,10 @@
                 color: var(--color-1);
                 font-size: 18px;
                 font-weight: 500;
+                transition: all .3s ease-in-out;
+                &:hover {
+                    color: var(--color-3);
+                }
             }
         }
     }

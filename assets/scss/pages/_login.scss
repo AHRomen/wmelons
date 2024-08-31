@@ -31,8 +31,17 @@
     .custom-label {
         color: #141414;
         font-weight: 600;
-        &:has(+ .custom-input){
+        &:has(+ .custom-input),
+        &:has(+ .input-with-icon){
             margin-bottom: 10px;
+        }
+    }
+    .input-with-icon {
+        position: relative;
+        .icon {
+            position: absolute;
+            bottom: 18px;
+            right: 14px;
         }
     }
     .custom-input {

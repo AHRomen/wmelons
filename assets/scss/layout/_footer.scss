@@ -1,29 +1,22 @@
 /* Footer Part */
 .wmelons.footer-area {
     .footer-area-top {
-        display: flex;
-        gap: 30px;
-        justify-content: space-between;
-        .footer-area-menu-widget {
-            max-width: 730px;
-            .link-list {
-                min-width: 230px;
-                .footer-widget-title {
-                    font-weight: 600;
-                    font-size: 20px;
-                    color: var(--color-1);
-                    margin-bottom: 30px;
-                }
-                ul {
-                    display: flex;
-                    flex-direction: column;
-                    gap: 20px;
-                    li a {
-                        color: var(--color-2);
-                    }
+        .link-list {
+            min-width: 230px;
+            .footer-widget-title {
+                font-weight: 600;
+                font-size: 20px;
+                color: var(--color-1);
+                margin-bottom: 30px;
+            }
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                li a {
+                    color: var(--color-2);
                 }
             }
-            
         }
     }
     .footer-area-bottom {

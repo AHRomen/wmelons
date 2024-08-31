@@ -5,22 +5,25 @@
         $(document).on('click', '.click-nav-right-icon', function(){
             $(".navbar-right-content").toggleClass("show-nav-content");
         });
-        $(document).on('click', '.click-nav-left-icon', function(){
-            $(".navbar-left-content").toggleClass("show-nav-content");
+        $(document).on('click', '.input-with-icon .icon', function(){
+            $('.input-with-icon i').toggleClass("d-none");
+            let input_field_type = $(".input-with-icon").find('input').attr("type");
+            console.log(input_field_type);
+            if (input_field_type == "password"){
+                $(".input-with-icon input").attr("type","text");
+            }
+            else {
+                $(".input-with-icon input").attr("type","password");
+            }
         });
-        $(document).on('click', '.dashbord-toggle-icon', function(){
-            $(".user-sidebar-left-menu-wraper").toggleClass("show");
-        });
-        $(document).on('click', '.profile-part', function(){
-            $(".profile-item").toggleClass("show");
-        });
-       //Select2 dropedown
-        $('.location-0').select2({
-            placeholder: "Location",
-        }); 
-        $(document).on('click', '.price-plan-buttons .plan-btn', function(){
-            $(".price-plan-buttons .plan-btn").removeClass("fill");
-            $(this).addClass("fill");
+        $(document).on('click', '.wmelons.faq .faq-header-wraper', function(){
+            let targetBody = $(this).siblings(".faq-body-wraper");
+            $(".wmelons.faq .faq-body-wraper").not(targetBody).slideUp(500).addClass("collapse");
+            if (targetBody.hasClass("collapse")) {
+                targetBody.slideDown(500).removeClass("collapse");
+            } else {
+                targetBody.slideUp(500).addClass("collapse");
+            }
         });
         //Counter up js
         const counterUp = window.counterUp.default;
