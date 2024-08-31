@@ -17,13 +17,19 @@
             }
         });
         $(document).on('click', '.wmelons.faq .faq-header-wraper', function(){
+            let targetHead = $(this);
             let targetBody = $(this).siblings(".faq-body-wraper");
-            $(".wmelons.faq .faq-body-wraper").not(targetBody).slideUp(500).addClass("collapse");
-            if (targetBody.hasClass("collapse")) {
-                targetBody.slideDown(500).removeClass("collapse");
-            } else {
-                targetBody.slideUp(500).addClass("collapse");
+            if (targetHead.hasClass("open")) {
+                targetHead.removeClass("open");
+                targetBody.slideUp(500);
             }
+            else {
+                targetHead.addClass("open");
+                targetBody.slideDown(500);
+                targetHead.closest(".single-faq-item").siblings(".single-faq-item").children(".faq-body-wraper").slideUp(500);
+                targetHead.closest(".single-faq-item").siblings(".single-faq-item").children(".faq-header-wraper").removeClass("open");
+            }
+
         });
         //Counter up js
         const counterUp = window.counterUp.default;

@@ -24,8 +24,19 @@
                 color: var(--color-4);
                 background: var(--color-3);
                 border-radius: 50%;
+                position: relative;
+                &::after{
+                    content: "\2b";
+                    font: var(--fa-font-solid);
+                    position: absolute;
+
+                }
             }
-            
+            &.open{
+                .icon::after{
+                    content: "\f068";
+                }
+            }
         }
         .faq-body-wraper {
             padding: 20px 10px;

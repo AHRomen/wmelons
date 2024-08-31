@@ -463,7 +463,7 @@ body {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.wmelons.pricing-plans .price-plans-wraper .plan-btn.fill {
+.wmelons.pricing-plans .price-plans-wraper .plan-btn.active {
   background: var(--color-3);
   color: var(--color-4);
 }
@@ -676,6 +676,15 @@ body {
   color: var(--color-4);
   background: var(--color-3);
   border-radius: 50%;
+  position: relative;
+}
+.wmelons.faq .single-faq-item .faq-header-wraper .icon::after {
+  content: "+";
+  font: var(--fa-font-solid);
+  position: absolute;
+}
+.wmelons.faq .single-faq-item .faq-header-wraper.open .icon::after {
+  content: "\f068";
 }
 .wmelons.faq .single-faq-item .faq-body-wraper {
   padding: 20px 10px;
